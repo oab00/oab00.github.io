@@ -39,3 +39,7 @@ h1 {
 p {
     line-height: 120%;
 }
+
+main img {
+    height: 133.33px;
+}
