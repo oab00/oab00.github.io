@@ -13,7 +13,22 @@ header {
 }
 
 nav {
-  background-color: skyblue;
+  display: inline-block;
+  width: 80%;
+}
+
+nav ul {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 80%;
+  list-style-type: none;
+}
+
+nav img {
+  position: relative;
+  top: 20px;
+  width: 10%;
+  display: inline-block;
 }
 
 main {
@@ -25,11 +40,6 @@ footer {
   background-color: lightgray;
 }
 
-li {
-  display: inline-block;
-  width: 200px;
-}
-
 h1 {
   text-align: center;
   font-family: "Black Roasters", "Gill Sans", "Gill Sans MT", Calibri,
@@ -38,9 +48,27 @@ h1 {
 }
 
 p {
-  line-height: 120%;
+  line-height: 125%;
 }
 
 main img {
   height: 133.33px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-evenly;
+  align-items: normal;
+  row-gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
