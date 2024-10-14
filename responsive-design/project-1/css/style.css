@@ -53,11 +53,7 @@ div {
 }
 
 @media screen and (min-width: 998px) {
-  div img {
-    max-height: 30vh;
-  }
   div {
-    display: inline-block;
     width: 30vw;
   }
 }
