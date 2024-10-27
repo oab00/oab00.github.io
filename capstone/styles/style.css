@@ -69,6 +69,12 @@ footer {
   overflow: hidden;
 }
 
+.gallery-grid figure:hover {
+  border-color: gray;
+  background-color: gray;
+  border-radius: 15%;
+}
+
 .gallery-grid figcaption {
   text-align: center;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -76,6 +82,23 @@ footer {
 
 .gallery-grid img {
   width: 100%;
+}
+
+.carousel {
+  background-color: black;
+  border: 5px solid black;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.75);
+  color: gold;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 @media screen and (min-width: 772px) {
@@ -95,7 +118,7 @@ footer {
   }
 
   .gallery-grid figure {
-    border-radius: 0%;
+    border-radius: 10%;
     font-size: 25px;
   }
 }
