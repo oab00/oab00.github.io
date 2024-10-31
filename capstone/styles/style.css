@@ -1,24 +1,3 @@
-/*
-  Color Layout (provided by ChatGPT):
-
-    1. Main Colors:
-      Coffee Brown (#6F4E37): Use this for the main background or as an accent for headers and footers. It’s rich and earthy, symbolizing coffee beans.
-      Creamy Beige (#F5F5DC): A neutral and inviting color for backgrounds or text areas, providing a comfortable and cozy feel.
-      Dark Espresso (#3E2723): Great for text, buttons, or borders. This deep color resembles espresso and adds contrast.
-
-    2. Accent Colors:
-      Soft Caramel (#D2A679): A nice contrast to the darker tones, it can be used for highlights, buttons, or icons.
-      Olive Green (#556B2F): A nod to nature and sustainability, this color can be used in small details, like link hovers or section separators.
-
-    3. Secondary Colors:
-      Warm Amber (#FFBF00): This cheerful yellow-orange can add energy. Use it sparingly for things like call-to-action buttons or to emphasize important elements.
-      Deep Terracotta (#C1440E): A warm reddish-brown hue for decorative elements or background sections, which creates a homely, rustic vibe.
-
-    4. Typography:
-      Use White (#FFFFFF) or Light Beige (#FAF3E0) for text over dark backgrounds.
-      Opt for Black Coffee (#2C2C2C) or Charcoal (#333333) for text on light backgrounds, giving a clean and readable look.
-*/
-
 /* Main */
 
 body {
@@ -41,7 +20,7 @@ main {
   border: 1px solid #3e2723;
   margin: 10px;
   padding: 10px;
-  padding-bottom: 70vh;
+  padding-bottom: 5vh;
   border-radius: 10px;
 }
 
@@ -51,6 +30,18 @@ footer {
   margin: 10px;
   padding: 10px;
   border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  color: #3e2723;
+}
+
+/* Home Page */
+
+.information p {
+  margin: 50px;
 }
 
 /* Gallery Page Specific */
@@ -115,7 +106,7 @@ footer {
 
 iframe {
   border: solid 1 px #777;
-  width: 800px;
+  width: 80vw;
   height: 600px;
 }
 
