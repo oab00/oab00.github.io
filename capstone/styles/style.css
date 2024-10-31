@@ -160,8 +160,3 @@ iframe {
     width: 500px !important;
   }
 }
-
-@media (prefers-color-scheme: dark) {
-  .gallery-grid figure {
-  }
-}
