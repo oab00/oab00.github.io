@@ -101,6 +101,16 @@ footer {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
+/* Events */
+
+iframe {
+  border: solid 1 px #777;
+  width: 800px;
+  height: 600px;
+}
+
+/* Media Queries */
+
 @media screen and (min-width: 772px) {
   .gallery-grid {
     grid-template-columns: 49% 49%;
