@@ -54,8 +54,9 @@ h1 {
 }
 
 .gallery-grid figure {
-  background-color: white;
-  border: 5px solid green;
+  background-color: black;
+  border: 5px solid black;
+  color: gold;
   border-radius: 35px;
   overflow: hidden;
 }
@@ -162,8 +163,5 @@ iframe {
 
 @media (prefers-color-scheme: dark) {
   .gallery-grid figure {
-    background-color: black;
-    border-color: black;
-    color: gold;
   }
 }
