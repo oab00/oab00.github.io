@@ -84,6 +84,16 @@ footer {
   width: 100%;
 }
 
+.gallery-grid a {
+  text-decoration: none;
+  color: gold;
+}
+
+.lb-image {
+  height: 25vh !important;
+  width: 25vh !important;
+}
+
 .carousel {
   background-color: black;
   border: 5px solid black;
@@ -120,6 +130,11 @@ iframe {
     border-radius: 25%;
     font-size: 12px;
   }
+
+  .lb-image {
+    height: 300px !important;
+    width: 300px !important;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -131,6 +146,11 @@ iframe {
     border-radius: 10%;
     font-size: 25px;
   }
+
+  .lb-image {
+    height: 400px !important;
+    width: 400px !important;
+  }
 }
 
 @media screen and (min-width: 1280px) {
@@ -141,6 +161,11 @@ iframe {
   .gallery-grid figure {
     border-radius: 0%;
     font-size: 25px;
+  }
+
+  .lb-image {
+    height: 500px !important;
+    width: 500px !important;
   }
 }
 
